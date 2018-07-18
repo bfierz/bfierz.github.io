@@ -5,3 +5,5 @@ that combines contraint resolution and system integration.
 
 Cross-platform UI by creating Win32 wrapper for Windows and a Carbon wrapper
 for MacOS 9.
+
+And last but not least, Windows 10 can still run it.
