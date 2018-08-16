@@ -40,6 +40,7 @@ and a time based single player mode, called ETH-mode.
 The graphics engine and the HUD use OpenGL and both are completely in 3D.
 
 Used technologies: *EiffelStudio, SVN, Eiffel, OpenGL*
+
 Used concepts: *Business Object Notation (BON)*
 
 ## Digital Circuit Simulation (2005)
@@ -63,6 +64,25 @@ my 'students' had to implement a small UI application within a small framework.
 
 ## Gravity Bound (2007)
 
+One part of my graduate program in Visual Computing was to delve into game
+programming. Back in 2007 Microsoft offered a new game development API called
+XNA for cross-platform game development on Windows and the Xbox 360 using C#.
+The was designed as a 3D split-screen multiplayer game similar to the 2D game ...
+Each player was controlling an oil blob with which he should collect points by
+eating little animals...
+As an additional challenge you could rotate the world, wich would make all the
+game items 'fall down'. The oil blobs however to stick themselves to the walls.
+The oil blob was simulated using a constrained-based soft-body concept, where
+the internals of the blob was built as a volumetric mesh. The simulation of
+several blobs was computationally challenging on the Xbox 360 as the SIMD units
+where not accessible through C#.
+The quality of the 3D content remained very limited as no one on our team
+seemed to be skilled enough for 3D modelling.
+
+Used technologies: *Visual Studio, C# (compact profile), XNA (D3D9), SVN*
+
+Used concepts: *Constrained-based soft-body simulation*
+
 ## Auto-vectorizer (2007)
 
 During my time as computer science student I attended a basic and an advanced
@@ -79,10 +99,33 @@ however very successfully. We managed to properly unroll and vectorize simple
 loops.
 
 Used technologies: *Java, GNU Assembler (GAS), SVN*
+
 Used concepts: *Single Instruction Multiple Data (SIMD), Static Single Assignment (SSA)*
 
 ## Dark Physics (2007)
 
+One part of the 'Physically-based Simulation' lecture was to apply the theory
+to practice. In a small team of three, we developed a rigid-body simulation
+engine, which supported different primitives types (plane, sphere, oriented box)
+and contact resolution based on the separating axes test (SAT). In order to use
+the available computational power optimally, the collision detection was
+separated into a board and narrow phase.
+As an additional challange, we wanted to properly support resting contacts.
+Allowing objects to stack properly without vibrating at the contact poinst
+required to have a solver for the linear complementary problem (LCP).
+
+Used technologies: *Visual Studio, C#, XNA (D3D9), SVN*
+
+Used concepts: *Rigid-body physics, Separating Axes Test (SAT), Linear Complementarity Problem (LCP)*
+
 ## Raytracer (2007)
 
+Used technologies: *Visual Studio, C++, Visual Source Safe*
+
+Used concepts: *Ray-tracing*
+
 ## Real-time Wavelet Turbulence Simulation (2008)
+
+Used technologies: *Visual Studio, C++, CUDA, SVN*
+
+Used concepts: *Single Instruction Multiple Data (SIMD), Parallelization, Concurrency*
