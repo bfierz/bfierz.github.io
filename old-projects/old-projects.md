@@ -8,13 +8,13 @@ library by accident. Soon I moved to Visual Basic 6 and then Java.
 Wanting to better understand how everything works under the hood, I had to add
 x86 assembler to that list, before I started to settle for a bit with C++.
 
-My first 'real' programming project then was a joint thesis project with two
-class mates.
-
 ## [Elektron (2002)](Elektron/Elektron.md)
 
 ![Elektron teaser image](Elektron/Elektron_quarter.png){:.align-left}
 
+Part of my grammar school curriculum was final thesis.
+My first 'real' programming project then was a joint thesis project with two
+class mates.
 Having not the slightest clue how difficult it would turn out, we convinced our
 teacher that we would develop a cross-platform (Windows 9x, MacOS 9)
 simulation program for simple
@@ -27,6 +27,8 @@ The designed circuits can be simulated and the changing properties observed by
 reading virtual power meters or the brightness of LEDs and lights.
 
 Used technologies: *CodeWarrior, C++, Win32, Carbon*
+
+Used concepts: *Linear Algebra, real-time integration of differential equations*
 
 ## Queue (2005)
 
@@ -62,7 +64,20 @@ Eiffel, the language we were using in lectures. So, I organised a small workshop
 and prepared some slides and written documenation. In order to get some practice,
 my 'students' had to implement a small UI application within a small framework.
 
+## Conjugate Gradients on the PhysX PPU (2006)
+
+As part of an internship, I had the change to work in the research team of Ageia,
+where created a proof of concept of an co-rotational linear FEM simulation on the
+PhysX PPU. The company (later acquired by NVIDIA) developed a custom accellerator
+card similar to NVIDIA CUDA devices later.
+
+Used technologies: *Visual Studio, C++, Assembler (PhysX PPU)*
+
+Used concepts: *Vectorization, Memory management, sparse linear algebra*
+
 ## Gravity Bound (2007)
+
+![Gravity Bound teaser image](GravityBound/GravityBound.png){:.align-left}
 
 One part of my graduate program in Visual Computing was to delve into game
 programming. Back in 2007 Microsoft offered a new game development API called
@@ -104,6 +119,8 @@ Used concepts: *Single Instruction Multiple Data (SIMD), Static Single Assignmen
 
 ## Dark Physics (2007)
 
+![Dark Physics teaser image](DarkPhysics/DarkPhysics.png){:.align-left}
+
 One part of the 'Physically-based Simulation' lecture was to apply the theory
 to practice. In a small team of three, we developed a rigid-body simulation
 engine, which supported different primitives types (plane, sphere, oriented box)
@@ -125,6 +142,8 @@ Used technologies: *Visual Studio, C++, Visual Source Safe*
 Used concepts: *Ray-tracing*
 
 ## Real-time Wavelet Turbulence Simulation (2008)
+
+![Real-time Wavelet Turbulence Simulation teaser image](WaveletTurbulence/WaveletTurbulence.png){:.align-left}
 
 Used technologies: *Visual Studio, C++, CUDA, SVN*
 
